@@ -9,4 +9,4 @@ Tahap awal sebelum mengolah data adalah menentukkan pertanyaan bisnis (Kriteria 
 
 Setelah menentukan petanyaan bisnis, saya mulai menyiapkan dataset dan mengolahnya di google colab. Dalam file all_data.csv saya telah membagi dengan rapi olahan data saya menjadi Data Wrangling dan Exploratory Data. Dalam tahapan Data Wrangling saya mengumpulkan, menilai dan membersihkan data, sedangkan dalam tahapan Exploratory Data saya mengeksplorasi data sesuai dengan kebutuhan saya, sebagai contoh saya menggunakan kode 'customers_df.describe(include="all")' untuk mengeksplor frekuensi transaksi dan membaca segmentasi geografis pelanggan.
 Untuk mempermudah analisa, saya juga mengelompokkan 4 dataset awal menjadi 1 dataset yang padu (Kriteria 3: Proses Analisis Dibuat dalam Notebook yang Rapi) untuk menjadi dataset dalam pembuatan dashboard (app.py).
-Dan tahapan terakhir 
+Dan tahapan terakhir yang saya lakukan adalah menyusun app.py di visual studio code dan mendeploy-nya di github (Kriteria 4: Membuat Dashboard Sederhana Menggunakan Streamlit).
