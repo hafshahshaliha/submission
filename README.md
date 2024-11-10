@@ -6,6 +6,7 @@ Projek di github ini berisi 4 file, yaitu all_data.csv, app.py, requirement.txt 
 Tahap awal sebelum mengolah data adalah menentukkan pertanyaan bisnis (Kriteria 2: Melakukan Seluruh Proses Analisis Data). 2 pertanyaan bisnis yang saya coba pecahkan menggunakan analisa ini adalah ; 
 1. Bagaimana kostumer Espana Warehouse tersebar secara geografis? Tujuannya adalah untuk membuat pabrik cabang di state yang memiliki pelanggan paling banyak sehingga Espana Warehouse dapat menekan biaya distribusi
 2. Produk apa yang memiliki penjualan terbaik dan terburuk? Dengan ini Espana Warehouse dapat melakukan analisa dan lebih lanjut mengenai kebutuhan pelanggan terhadap produk kami.
+
 Setelah menentukan petanyaan bisnis, saya mulai menyiapkan dataset dan mengolahnya di google colab. Dalam file all_data.csv saya telah membagi dengan rapi olahan data saya menjadi Data Wrangling dan Exploratory Data. Dalam tahapan Data Wrangling saya mengumpulkan, menilai dan membersihkan data, sedangkan dalam tahapan Exploratory Data saya mengeksplorasi data sesuai dengan kebutuhan saya, sebagai contoh saya menggunakan kode 'customers_df.describe(include="all")' untuk mengeksplor frekuensi transaksi dan membaca segmentasi geografis pelanggan.
 Untuk mempermudah analisa, saya juga mengelompokkan 4 dataset awal menjadi 1 dataset yang padu (Kriteria 3: Proses Analisis Dibuat dalam Notebook yang Rapi) untuk menjadi dataset dalam pembuatan dashboard (app.py).
 Dan tahapan terakhir 
